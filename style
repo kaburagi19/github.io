@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  font-size: 17px;
+  font-family: Noto, "Hiragino Sans", Helvetica, Arial, sans-serif;
+  background-color: #f8f9ff;
+  background-repeat: no-repeat;
+  min-height: 1080px;
+  color: #333;
+  font-weight: 400;
+}
+.space{
+  margin: 50px 0;
+}
+p{
+  padding: 2px;
+}
+h2{
+  text-align: center;
+  padding: 50px 0;
+  font-family: serif;
+}
+h3{
+  padding-bottom: 30px;
+}
+header{
+  color: #333;
+  text-align: center;
+  padding: 30px;
+  font-family: serif;
+}
+.name{
+  text-align: center;
+}
+.oo_midashi{
+  border-left: 9px solid #4865b2;
+  margin: 50px 20px;
+  font-size: 22px;
+  background-color: #fed;
+  height: 65px;
+  text-justify: inter-word;
+  padding-top: 30px;
+}
+.ko_midashi{
+  border-left: 9px solid #4865b2;
+  margin: 50px 20px;
+  font-size: 22px;
+}
+.box{
+  background-color: #fafafa;
+  outline: 1px solid #f0f0f0;
+  border-color: #f0f0f0;
+  padding: 20px;
+  margin: 15px 40px 60px;
+}
+img{
+  display: block;
+  margin: 0px auto;
+  padding: 20px 0;
+}
+.navi{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.navi a{
+  padding: 8px 8px;
+  color: #003300;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+}
+ul {
+    list-style-type: disc;
+    background-color: #fafafa;
+    border: dashed 1px #4865b2;
+    padding: 40px 10px 36px 40px;
+    margin: 0 40px 40px;
+}
+ul li {
+    display: list-item;
+    color: #333;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+.red{
+  color: red;
+}
+.me{
+  margin-bottom: 7px;
+}
+.zemi{
+  margin-bottom: 7px;
+}
+.other{
+  margin-bottom: 7px;
+}
+.me a{
+  background-color: #feb;
+}
+.zemi a{
+  background-color: #ddf;
+}
+.other a{
+  background-color: #dfe;
+}
+.navi a:hover {
+  display: flex;
+  border: solid #708090;
+}
+.main{
+  margin: 0 auto;
+  max-width: 650px;
+}
+.main p{
+  text-align: left;
+  display: inline-block;
+  padding: 0 20px;
+}
+.main_me{
+  min-height: 360px;
+  padding-bottom: 100px;
+
+}
+.main_zemi{
+  background-color: white;
+  min-height: 360px;
+  color: black;
+  padding-bottom: 150px;
+}
+.main_other{
+  min-height: 2100px;
+  background-color: #f8f9ff;
+  background-repeat: no-repeat;
+}
+.setsumei{
+  text-align: center;
+  font-size: 15px;
+}
