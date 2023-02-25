@@ -16,7 +16,7 @@ body {
   margin: 50px 0;
 }
 p{
-  padding: 2px;
+  line-height: 2.0;
 }
 h2{
   text-align: center;
